@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Oi", "Olá", "E aí", "Bom dia", "Boa tarde"],
+      "responses": ["Olá!", "Oi, tudo bem?", "Como posso ajudar você?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até mais", "Adeus", "Falou"],
+      "responses": ["Até logo!", "Tchau!", "Volte sempre!"]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["Obrigado", "Valeu", "Agradecido"],
+      "responses": ["De nada!", "Estamos aqui para ajudar!", "Por nada :)"]
+    },
+    {
+      "tag": "nome",
+      "patterns": ["Qual é o seu nome?", "Quem é você?", "Como se chama?"],
+      "responses": ["Eu sou um chatbot simples em Python!", "Me chamo ChatPy :)"]
+    }
+  ]
+}
